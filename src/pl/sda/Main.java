@@ -13,5 +13,7 @@ public class Main {
         // CashMachine
         // Account
         // Card (karta jest połączo:na z jednym kontem)
+        double test = 1.03 - 0.42;
+        System.out.println(test);
     }
 }
