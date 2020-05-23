@@ -23,11 +23,13 @@ public class Main {
                 "Płonka",
                 "PL41109024027856121167925782",
                 BigDecimal.valueOf(112));
-        new Card("4532988042633987",
+        Card myCard = new Card("4532988042633987",
                 "VISA",
                 LocalDate.of(2026, 12, 12),
                 "1234",
                 account);
-        System.out.println(test);
+
+        CashMachine cashMachine = new CashMachine();
+        System.out.println(cashMachine.checkBalance("1254", myCard));
     }
 }
